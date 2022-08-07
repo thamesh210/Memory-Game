@@ -1,0 +1,44 @@
+.row{
+   text-align: center;
+}
+.col{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.col:hover{
+    box-shadow: inset 0px 0px 0px 1px blueviolet;
+    box-sizing: border-box;
+}
+
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.pink{
+    background-color: pink;
+}
+.teal{
+    background-color: teal;
+}
+.lime{
+    background-color: lime;
+}
+
+.color-hidden{
+    background-color: #eee;
+}

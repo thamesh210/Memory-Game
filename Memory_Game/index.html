@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href = "./styles.css"/>
+</head>
+<body>
+    <div class="row">
+        <h1>Memory Game</h1>
+    </div>
+
+    <div class="row">
+        <div data-color = "lime" class = "col lime  color-hidden" onclick=onCardClick(event)></div>
+        <div data-color = "red" class = "col red color-hidden" onclick=onCardClick(event)></div>
+        <div data-color = "teal" class = "col teal color-hidden" onclick=onCardClick(event)></div>
+        <div data-color = "pink" class = "col pink color-hidden" onclick=onCardClick(event)></div>
+    </div>
+    <div class="row">
+        <div data-color = "green" class = "col green color-hidden" onclick=onCardClick(event)></div>
+        <div data-color = "yellow" class = "col yellow color-hidden" onclick=onCardClick(event)></div>
+        <div data-color = "green" class = "col green color-hidden" onclick=onCardClick(event)></div>
+        <div data-color = "orange" class = "col orange color-hidden" onclick=onCardClick(event)></div>
+    </div>
+    <div class="row">
+        <div data-color = "lime" class = "col lime color-hidden" onclick=onCardClick(event)></div>
+        <div data-color = "teal" class = "col teal color-hidden" onclick=onCardClick(event)></div>
+        <div data-color = "blue" class = "col blue color-hidden" onclick=onCardClick(event)></div>
+        <div data-color = "yellow" class = "col yellow color-hidden" onclick=onCardClick(event)></div>
+    </div>
+    <div class="row">
+        <div data-color = "red" class = "col red color-hidden" onclick=onCardClick(event)></div>
+        <div data-color = "blue" class = "col blue color-hidden" onclick=onCardClick(event)></div>
+        <div data-color = "orange" class = "col orange color-hidden" onclick=onCardClick(event)></div>
+        <div data-color = "pink" class = "col pink color-hidden" onclick=onCardClick(event)></div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
